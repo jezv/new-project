@@ -1,7 +1,5 @@
 
-#include "everything.h"
-
-// #include <cassert>
+#include "mylib.hh"
 #include <iostream>
 #include <string>
 
@@ -13,7 +11,7 @@ int main()
 {
     printf("Running tests...\n");
 
-    assert( string("Hello, World.") == everything() );
+    assert( string("Hello, World.") == hello_lib() );
 
     printf("All tests passed!\n");
     return 0;
